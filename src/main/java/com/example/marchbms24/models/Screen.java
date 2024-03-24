@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-@Entity
+@Entity(name = "screens")
 public class Screen extends BaseModel{
     private String name;
     @OneToMany

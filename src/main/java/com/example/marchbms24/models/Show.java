@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-@Entity
+@Entity(name = "shows")
 public class Show extends BaseModel{
     @ManyToOne
     private Screen screen;
