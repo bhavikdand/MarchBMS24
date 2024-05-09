@@ -1,5 +1,8 @@
 package com.example.marchbms24.dtos;
 
+import lombok.Data;
+
+@Data
 public class Response {
     private ResponseStatus responseStatus;
     private String error;

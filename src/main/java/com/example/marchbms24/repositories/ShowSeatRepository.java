@@ -17,7 +17,7 @@ public interface ShowSeatRepository extends JpaRepository<ShowSeat, Integer> {
 
 //    @Query(value = "select * from show_seats")
 
-    @Lock(value = LockModeType.PESSIMISTIC_WRITE)
-    List<ShowSeat> findShowSeatsByIdInAndSeatStatus_AvailableAndShow(List<Integer> showSeatIds, Show show);
+//    @Lock(value = LockModeType.PESSIMISTIC_WRITE)
+//    List<ShowSeat> findShowSeatsByIdInAndSeatStatus_AvailableAndShow(List<Integer> showSeatIds, Show show);
 
 }
